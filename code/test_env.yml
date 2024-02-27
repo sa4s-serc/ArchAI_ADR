@@ -1,0 +1,17 @@
+name: test
+channels:
+  - defaults
+dependencies:
+  - pip=23.0.1
+  - python=3.10.11
+  - pip:
+    - jupyter
+    - icecream
+    - numpy
+    - pandas
+    - torch
+    - evaluate
+    - transformers
+    - openai
+    - scikit-learn
+    - python-dotenv

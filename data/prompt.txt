@@ -1,0 +1,58 @@
+## Context
+
+IOG is undertaking a company-wide effort to restructure and standardize its repositories, favoring mono-repos and enforcing shared GitOps and DevOps processes. Parallel to this, a new CI infrastructure is being developed.
+
+Examples of this are:
+
+    input-output-hk/cardano-world
+
+    input-output-hk/ci-world
+
+    input-output-hk/atala-world
+
+This initiative appears to be championed by the SRE team who are the creators of divnix/std. Indeed std is at the heart of the standardization dream.
+
+## Decision
+
+    Standardization of the repositories has been deemed a worthwhile endeavour, though of very low priority.
+
+    Phase 1 of the standardization process will be carried out in parallel with Move Marconi to a separate repository. A separate repository will be created for Marconi, and from the very beginning it will use std. This way the benefits, limitations and integration costs of std can be experienced and measured, and an informed, definitive decision on standardizing plutus-core and plutus-apps themselves can be made.
+
+
+## Context
+
+We need to decide on which database management system (DBMS) to use for Project X. The database will be used to store and manage large amounts of data from multiple sources. We need a DBMS that can handle transactions, offer scalability, and provide high reliability and security. Among various options available, we are considering MySQL as a possible choice.
+
+### Decision Considerations
+
+- Ease of use and maintenance
+
+- Community support and resources
+
+- Performance and scalability
+
+- Security and reliability
+
+- Cost and licensing
+
+- Compatibility with our technology stack
+
+### Considered Options
+
+- MySQL
+
+- PostgreSQL
+
+- Oracle
+
+- Microsoft SQL Server
+
+- MongoDB
+
+## Decision
+
+After evaluating the above options based on our decision considerations, we have decided to choose MySQL as our DBMS for Project X.
+
+MySQL is a popular open-source system with a strong development community and a large pool of resources for problem-solving and knowledge sharing. It is well-known for its excellent performance and scalability capabilities, making it ideal for handling vast amounts of data with high levels of efficiency. The platform is secure, reliable, and has a wide range of features that are essential for our project, including ACID compliance for transactions, flexible data model, and support for various programming languages and frameworks.
+
+MySQL is also compatible with the majority of our technology stack, including our web development framework, hosting solutions, and other essential tools. Plus, its cost and licensing terms are competitive compared to other proprietary systems like Oracle and Microsoft SQL Server.
