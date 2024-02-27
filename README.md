@@ -2,6 +2,8 @@
 
 This repository contains both the code and data associated with the paper: 
 "Can LLMs Generate Architectural Design Decisions?- An Exploratory Empirical study"
+<br>
+Here is the Github repo: https://github.com/sa4s-serc/ArchAI_ADR
 
 ## Abstract
 
