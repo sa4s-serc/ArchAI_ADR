@@ -17,7 +17,7 @@ Architectural Knowledge Management (AKM) involves the organized handling of info
     - The collected data after preprocessing is in 0_shot.csv and few_shot.csv. The models ingest data from these two files.
     - To view the original collected data unzip the zip files provided.
 3. Simplefied_Example
-       Running the whole code with all the data will take time, compute power and OpenAI api credits. Hence in the Simplified_Example.md file we record the way to execute a simgle sample.
+       Running the whole code with all the data will take time, compute power and OpenAI api credits. Hence in the [Simplified_Example.md](https://github.com/sa4s-serc/ArchAI_ADR/blob/main/Simplified_Example.md) file we record the way to execute a simgle sample.
 
 ## Steps to run
 
